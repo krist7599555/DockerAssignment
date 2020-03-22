@@ -5,9 +5,9 @@ var mongo = require('mongodb')
 var MongoClient = require('mongodb').MongoClient
 
 // Constants
-const PORT = process.env.PORT
-const HOST = '0.0.0.0'
-const mongo_url = `mongodb://${process.env.MONGO_HOST}:27017`
+const PORT = 'xxxx'
+const HOST = 'xxxx'
+const mongo_url = 'xxxx'
 
 const db = new Promise((res, rej) =>
   MongoClient.connect(mongo_url, function (err, db) {
